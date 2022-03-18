@@ -1,5 +1,5 @@
 CREATE TABLE Test (
-    TestID int NOT NULL IDENTITY,
+    TestID int NOT NULL  GENERATED ALWAYS AS IDENTITY,
     FirstName varchar(255),
     LastName varchar(255),
 	PRIMARY KEY (TestID)
